@@ -1,0 +1,10 @@
+env = "dev"
+
+vpc_cidr                   = "10.0.0.0/16"
+aws_lb_name                = "12345"
+aws_region                 = "us-east-1"
+load_balancer_type         = "application"
+max_subnets                = "4"
+private_sn_count           = "2"
+public_sn_count            = "2"
+ubuntu-ami                 = "ami-0898dfbf544996e02"
